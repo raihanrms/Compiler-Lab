@@ -19,7 +19,7 @@ void updateSymbolVal(char symbol, int val);	/* symbol/value gets the passing val
 %type <id> assignment
 %% 
 
-/* descriptions of expected inputs     corresponding actions (in C) */
+/* descriptions of expected inputs corresponding actions (in C) */
 
 line    : assignment ';'		{;}
 		| exit_command ';'		{exit(EXIT_SUCCESS);}
