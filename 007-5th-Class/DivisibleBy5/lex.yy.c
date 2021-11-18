@@ -436,8 +436,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "DivisibleBy2.l"
-#line 3 "DivisibleBy2.l"
+#line 1 "DivisibleBy5.l"
+#line 3 "DivisibleBy5.l"
 int num;	
 #line 443 "lex.yy.c"
 #line 444 "lex.yy.c"
@@ -657,7 +657,7 @@ YY_DECL
 		}
 
 	{
-#line 5 "DivisibleBy2.l"
+#line 5 "DivisibleBy5.l"
 
 #line 663 "lex.yy.c"
 
@@ -718,7 +718,7 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 6 "DivisibleBy2.l"
+#line 6 "DivisibleBy5.l"
 {num=atoi(yytext);
 	if(num%5==0){
 		printf("Two added: %d",num+2);
@@ -730,7 +730,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 14 "DivisibleBy2.l"
+#line 14 "DivisibleBy5.l"
 ECHO;
 	YY_BREAK
 #line 737 "lex.yy.c"
@@ -1738,7 +1738,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 14 "DivisibleBy2.l"
+#line 14 "DivisibleBy5.l"
 
 int yywrap(){
 	printf("Enter a number: \n");
