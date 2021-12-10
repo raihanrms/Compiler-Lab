@@ -1,24 +1,39 @@
 ## Compiler Lab
 Scripts and few images to help learn lex and yacc
 
+#### Class 1
+```
+Introduction
+```
+
 #### Class 2
-- Capital
-- Number
-- Floating
+```
+1. Capital
+2. Number
+3. Floating
+```
 
 #### Class 3
-- Line and Character
-- Number Operator
-- Vowels and Consonent
+```
+1. Line and Character
+2. Number Operator
+3. Vowels and Consonent
+```
 
 #### Class 4
-- Digits and Characters
-- Odd or even
+```
+1. Digits and Characters
+2. Odd or even
+```
 
 #### Class 5
-- Divisible by 5
-- Prime or not
+```
+1. Divisible by 5
+2. Prime or not
+```
 
 #### Class 6
-- Artithmatic, Identifier and Operator
-- Verb, Adverb, Pronoun and Article
+```
+1. Artithmatic, Identifier and Operator
+2. Verb, Adverb, Pronoun and Article
+```
