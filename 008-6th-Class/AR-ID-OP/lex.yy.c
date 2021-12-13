@@ -450,7 +450,7 @@ char *yytext;
 #include<string.h>
 #define max 50
 int check,i,j,k,top,b;
-char stack[max],ident[max],oper[max],brac[max];	
+char stack[max],ident[max],oper[max],brac[max];
 #line 455 "lex.yy.c"
 #line 456 "lex.yy.c"
 
@@ -1814,11 +1814,11 @@ printf("\nThe operators are: ");
 for(i=0;i<k;i++)
 printf("\t%c",oper[i]);
 
-printf("\nNumber of operators are: %d",k);	
+printf("\nNumber of operators are: %d",k);
 if(check==0 && top==-1 && j==k+1)
-	printf("\nValid Expression");
-	else
-	printf("\nInvalid Expression");
+        printf("\nValid Expression");
+        else
+        printf("\nInvalid Expression");
 
 return 0;
 }
