@@ -37,3 +37,10 @@ Introduction
 1. Artithmatic, Identifier and Operator
 2. Verb, Adverb, Pronoun and Article
 ```
+
+#### Class 7
+```
+1. Detect comments with user input
+2. Valid Email
+3. Valid Date
+```
