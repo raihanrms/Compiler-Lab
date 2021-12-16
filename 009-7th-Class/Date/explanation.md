@@ -1,25 +1,23 @@
 ## Explanation
 ### Check the syntax of date
-```
+```c
 if we have to check syntax like dd/mm/yyy apply:
 [0-9][0-9] \ / [0-9][0-9] \ / [0-9] [0-9] [0-9] [0-9]
 
 But date should be in range, so apply:
 ([0-2][0-9] | 3 [0-1])  \ /  (0[1-9] | 1[0-2]) \ / ([1-2][0-9][0-9][0-9])
 ```
-
 ### Check validity of the date
-
 #### -->  In months 01,03,05,07,08,10 &12 , there will be at most 31 days.
-```
+```c
 ([0-2][0-9]|[3][0-1])\/((0(1|3|5|7|8))|(10|12))\/([1-2][0-9][0-9][-0-9]) 
 ```
 #### --> In months 04,06,09 & 11 may have at most 30 days
-```
+```c
 ([0-2][0-9]|30)\/((0(4|6|9))|11)\/([1-2][0-9][0-9][0-9])
 ```
 #### -->February has 28 days (in linear and non-linear years)
-```
+```c
 ([0-1][0-9]|2[0-8])\/02\/([1-2][0-9][0-9][0-9])
 ```
 #### -->If February has a day 29, check whether it is leap year or not..!!
