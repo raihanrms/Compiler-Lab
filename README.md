@@ -37,3 +37,7 @@ Introduction
 2. Valid Email
 3. Valid Date
 ```
+#### Class 8
+```
+1. LL1 Parser (not in syllabus).
+```
